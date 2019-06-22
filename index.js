@@ -9,8 +9,10 @@ app.set('views',path.join(__dirname,'/views'))
 app.set('view engine','ejs')
 
 app.get('/nikhil',(req,res)=>{
-    res.redirect('nikhil.html')
+    res.render('nikhil')
 })
-
+app.get('/divya',(req,res)=>{
+    res.render('divya')
+})
 
 app.listen(port,()=>console.log('app is running at port 3000'))
