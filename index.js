@@ -26,10 +26,5 @@ app.get('/harshitha',(req,res)=>{
 app.get('/manu',(req,res)=>{
     res.render('manu')
 })
-app.get('/muktha',(req,res)=>{
-    res.render('muktha')
-})
-app.get('/nishanth',(req,res)=>{
-    res.render('nishanth')
-})
+
 app.listen(port,()=>console.log('app is running at port 3000'))
